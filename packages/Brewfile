@@ -5,5 +5,6 @@ tap 'iveney/mocha'
 
 ## Brew appllications
 brew 'realpath'
+brew 'tmux'
 
 ## Brew cask applications

@@ -93,6 +93,7 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+alias e="exit"
 alias c="clear"
 alias zshsrc="source ~/.zshrc"
 
@@ -102,3 +103,7 @@ alias ga="git add ."
 alias gs="git status"
 alias gaf="git add "
 alias gp="git push"
+
+# Tmux aliases
+alias t="tmux"
+alias ta="tmux a"
