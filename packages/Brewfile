@@ -1,8 +1,9 @@
 cask_args appdir: '/Applications'
 
 ## Brew tap
+tap 'iveney/mocha'
 
 ## Brew appllications
-brew 'tmux'
+brew 'realpath'
 
 ## Brew cask applications
