@@ -94,4 +94,11 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 alias c="clear"
+alias zshsrc="source ~/.zshrc"
+
+# Aliases for git
 alias gc="git commit -m "
+alias ga="git add ."
+alias gs="git status"
+alias gaf="git add "
+alias gp="git push"
