@@ -2,7 +2,6 @@ cask_args appdir: '/Applications'
 
 ## Brew tap
 tap 'iveney/mocha'
-tap 'homebrew/dupes'
 tap 'homebrew/php'
 
 ## Brew appllications
