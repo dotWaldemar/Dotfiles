@@ -92,3 +92,26 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+#########################################################
+#                     Aliases                           #
+#########################################################
+
+# Git
+alias ga="git add ."
+alias gaf="git add"
+alias gs="git status"
+alias gc="git commit -m"
+alias gp="git push"
+
+# Tmux
+alias t="tmux"
+alias ta="tmux a"
+
+# OS
+alias e="exit"
+alias c="clear"
+alias shf="defaults write com.apple.finder AppleShowAllFiles TRUE; killall Finder"
+alias hhf="defaults write com.apple.finder AppleShowAllFiles FALSE ; killall Finder"
+alias src="source ~/.zshrc"
+alias dot="cd ~/Code/Dotfiles"
