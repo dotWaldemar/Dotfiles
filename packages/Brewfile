@@ -1,0 +1,8 @@
+cask_args appdir: '/Applications'
+
+## Brew tap
+
+## Brew appllications
+brew 'tmux'
+
+## Brew cask applications
