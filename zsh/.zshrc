@@ -115,3 +115,14 @@ alias shf="defaults write com.apple.finder AppleShowAllFiles TRUE; killall Finde
 alias hhf="defaults write com.apple.finder AppleShowAllFiles FALSE ; killall Finder"
 alias src="source ~/.zshrc"
 alias dot="cd ~/Code/Dotfiles"
+
+# VSCode
+code () {
+    if [[ $# = 0 ]]
+    then
+        open -a "Visual Studio Code"
+    else
+        [[ $1 = /* ]] && F="$1" || F="$PWD/${1#./}"
+        open -a "Visual Studio Code" --args "$F"
+    fi
+}

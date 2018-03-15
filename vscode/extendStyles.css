@@ -1,0 +1,19 @@
+.monaco-workbench>.part.editor>.content>.one-editor-silo>.container>.title, .monaco-workbench>.part>.title {
+    height: 35px;
+    width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+    position: absolute;
+    bottom: 0;
+}
+
+.monaco-workbench>.part.editor>.content>.one-editor-silo>.container>.title .editor-actions {
+    cursor: default;
+    flex: initial;
+    padding-left: 4px;
+    display: none;
+}
+
+.monaco-workbench>.part>.composite.title {
+    display: none;
+}

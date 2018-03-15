@@ -6,7 +6,7 @@ tap 'homebrew/php'
 
 ## Brew appllications
 brew 'realpath'
-brew 'tmux'
+#brew 'tmux'
 brew 'php72'
 brew 'composer'
 brew 'dnsmasq'
@@ -14,3 +14,4 @@ brew 'mysql'
 brew 'nginx'
 
 ## Brew cask applications
+cask 'hyper'

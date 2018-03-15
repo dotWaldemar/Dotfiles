@@ -15,7 +15,12 @@ find . -name "settings.json" | while read fn; do
     symlink "$SOURCE/$fn" "$DESTINATION/$fn"
 done
 
-find . -name "snippets" | while read fn; do
+find . -name "keybindings.json" | while read fn; do
+    fn=$(basename $fn)
+    symlink "$SOURCE/$fn" "$DESTINATION/$fn"
+done
+
+find . -name "keybindings.json" | while read fn; do
     fn=$(basename $fn)
     symlink "$SOURCE/$fn" "$DESTINATION/$fn"
 done
