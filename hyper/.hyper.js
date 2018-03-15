@@ -7,7 +7,8 @@ module.exports = {
 
         materialBox: {
             scheme: 'gruvbox-dark-hard',
-            backgroundOpacity: 0.5,
+            // scheme: 'apex',
+            backgroundOpacity: 0.7,
             autoHideTitle: true,
         },
 
@@ -16,7 +17,7 @@ module.exports = {
         updateChannel: 'stable',
 
         // default font size in pixels for all tabs
-        fontSize: 12,
+        fontSize: 13,
 
         // font family with optional fallbacks
         fontFamily: 'Menlo, "DejaVu Sans Mono", Consolas, "Lucida Console", monospace',
