@@ -6,8 +6,7 @@ module.exports = {
     config: {
 
         materialBox: {
-            // scheme: 'tomorrow-night',
-            scheme: 'material-darker',
+            scheme: 'gruvbox-dark-hard',
             backgroundOpacity: 0.5,
             autoHideTitle: true,
         },
@@ -20,7 +19,7 @@ module.exports = {
         fontSize: 12,
 
         // font family with optional fallbacks
-        fontFamily: '"Source Code Pro", Hack, Menlo, "DejaVu Sans Mono", Consolas, "Lucida Console", monospace',
+        fontFamily: 'Menlo, "DejaVu Sans Mono", Consolas, "Lucida Console", monospace',
 
         // terminal cursor background color and opacity (hex, rgb, hsl, hsv, hwb or cmyk)
         cursorColor: 'rgba(248,28,229,0.8)',
@@ -134,7 +133,9 @@ module.exports = {
       localPlugins: [],
 
       keymaps: {
-          // Example
           'window:devtools': 'cmd+alt+o',
+          'pane:next': 'ctrl+l',
+          'pane:prev': 'ctrl+h',
+          'pane:splitVertical': 'ctrl+v',
       }
 };
