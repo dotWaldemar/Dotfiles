@@ -6,18 +6,16 @@ cd "$DIR"
 . ../scripts/functions.sh
 
 SOURCE="$(realpath .)"
-DESTINATION="$(realpath ~/.atom/)"
+DESTINATION="$(realpath ~)"
 
 info "Setting up Atom..."
-
-if [ ! -d "~/.atom" ]; then
-	mkdir ~/.atom
-fi
 
 find . -name "packages-list.txt" | while read fn; do
     fn=$(basename $fn)
     apm install --packages-file "$SOURCE/$fn"
 done
+
+mkdir ~/.atom
 
 array=(
 		"keymap.cson"
@@ -27,10 +25,9 @@ array=(
 
 for element in ${array[@]}
 do
-	find . -name $element | while read fn; do
+	find . -name "$element" | while read fn; do
 	    fn=$(basename $fn)
-	    # mv "$DESTINATION/$fn" "$SOURCE/$fn"
-	    symlink "$SOURCE/$fn" "$DESTINATION/$fn"
+	    symlink "$SOURCE/$fn" "$DESTINATION/.atom/$fn"
 	done
 
 done
