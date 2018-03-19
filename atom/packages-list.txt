@@ -1,0 +1,5 @@
+emmet
+pigments
+vim-mode-plus
+expose
+atom-material-ui

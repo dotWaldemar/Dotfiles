@@ -1,0 +1,30 @@
+"*":
+  "autocomplete-plus": {}
+  core:
+    disabledPackages: [
+      "about"
+      "archive-view"
+      "welcome"
+      "status-bar"
+      "open-on-github"
+      "link"
+      "language-ruby-on-rails"
+      "language-objective-c"
+      "language-c"
+      "image-view"
+      "github"
+      "tabs"
+      "autocomplete-plus"
+      "markdown-preview"
+      "autocomplete-atom-api"
+    ]
+    telemetryConsent: "no"
+    themes: [
+      "atom-material-ui"
+      "base16-tomorrow-light-theme"
+    ]
+    titleBar: "custom"
+  "exception-reporting":
+    userId: "704421f6-7c22-4b2f-9ade-fc57b598703f"
+  welcome:
+    showOnStartup: false

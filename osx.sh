@@ -32,4 +32,6 @@ find * -name "setup.sh" -not -wholename "packages*" | while read setup; do
     sh $setup
 done
 
+brew cask cleanup
+
 success "Finished installing Dotfiles"
