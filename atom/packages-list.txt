@@ -3,3 +3,6 @@ pigments
 vim-mode-plus
 expose
 atom-material-ui
+file-icons
+minimap
+project-manager
