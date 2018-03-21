@@ -1,12 +1,6 @@
 "*":
-  "atom-autocomplete-php":
-    insertNewlinesForUseStatements: true
-  "atom-ide-ui":
-    use: {}
   "atom-package-deps":
     ignored: []
-  "atom-symfony2": {}
-  "autocomplete-php": {}
   core:
     disabledPackages: [
       "about"
@@ -21,6 +15,7 @@
       "autocomplete-atom-api"
       "autocomplete-html"
       "autocomplete-css"
+      "status-bar"
     ]
     telemetryConsent: "no"
     themes: [
@@ -32,6 +27,7 @@
     fontFamily: "Menlo"
     fontSize: 12
     lineHeight: 2
+    scrollPastEnd: true
     showLineNumbers: false
     tabLength: 4
   emmet:
@@ -41,14 +37,8 @@
   "ide-php":
     phpPath: "/usr/local/Cellar/php/7.2.3_2"
   minimap: {}
-  "php-fmt":
-    PSRNaming: true
-    autoAlign: true
-    lintBefore: true
-    noBackup: true
-    useSpaceIndentation: true
-    visibilityOrder: true
-    yodaStyle: true
+  pigments:
+    markerType: "native-dot"
   "project-manager":
     alwaysOpenInSameWindow: true
   "project-plus": {}
