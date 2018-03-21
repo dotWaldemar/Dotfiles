@@ -2,7 +2,7 @@
     "editor.fontSize": 12,
     "files.autoSave": "afterDelay",
     "workbench.iconTheme": "material-icon-theme",
-    "workbench.colorTheme": "Material Theme",
+    "workbench.colorTheme": "Tomorrow",
     "materialTheme.cache.workbench.settings": {
         "themeColours": "Light"
     },
@@ -20,6 +20,7 @@
     "editor.links": false,
     "editor.occurrencesHighlight": false,
     "editor.selectionHighlight": false,
+    "workbench.editor.showTabs": false,
 }
 
 

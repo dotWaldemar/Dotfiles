@@ -1,3 +1,7 @@
+'body':
+    'f8': 'pane:show-next-item'
+    'f9': 'pane:show-previous-item'
+
 '.platform-darwin':
     'F1': 'tree-view:toggle'
 

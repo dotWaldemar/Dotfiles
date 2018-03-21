@@ -1,18 +1,26 @@
 "*":
+  "atom-autocomplete-php":
+    insertNewlinesForUseStatements: true
+  "atom-ide-ui":
+    use: {}
+  "atom-package-deps":
+    ignored: []
+  "atom-symfony2": {}
+  "autocomplete-php": {}
   core:
     disabledPackages: [
       "about"
       "archive-view"
-      "autocomplete-atom-api"
-      "autocomplete-plus"
-      "dev-live-reload"
       "github"
       "image-view"
       "link"
       "markdown-preview"
       "tabs"
       "welcome"
-      "status-bar"
+      "autocomplete-plus"
+      "autocomplete-atom-api"
+      "autocomplete-html"
+      "autocomplete-css"
     ]
     telemetryConsent: "no"
     themes: [
@@ -20,7 +28,30 @@
       "base16-tomorrow-light-theme"
     ]
     titleBar: "custom"
+  editor:
+    fontFamily: "Menlo"
+    fontSize: 12
+    lineHeight: 2
+    showLineNumbers: false
+    tabLength: 4
+  emmet:
+    extensionsPath: "~/.atom/packages/emmet"
   "exception-reporting":
     userId: "1c853bc3-801b-453b-862b-4d375310bd42"
+  "ide-php":
+    phpPath: "/usr/local/Cellar/php/7.2.3_2"
+  minimap: {}
+  "php-fmt":
+    PSRNaming: true
+    autoAlign: true
+    lintBefore: true
+    noBackup: true
+    useSpaceIndentation: true
+    visibilityOrder: true
+    yodaStyle: true
+  "project-manager":
+    alwaysOpenInSameWindow: true
+  "project-plus": {}
+  "tree-view": {}
   welcome:
     showOnStartup: false
