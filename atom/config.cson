@@ -1,4 +1,7 @@
 "*":
+  "atom-material-ui":
+    colors:
+      abaseColor: "#967138"
   "atom-package-deps":
     ignored: []
   core:
