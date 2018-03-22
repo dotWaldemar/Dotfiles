@@ -134,9 +134,10 @@ module.exports = {
       localPlugins: [],
 
       keymaps: {
-          'window:devtools': 'cmd+alt+o',
-          'pane:next': 'ctrl+l',
-          'pane:prev': 'ctrl+h',
-          'pane:splitVertical': 'ctrl+v',
+          "window:devtools": "cmd+alt+o",
+          "pane:next": "ctrl+k",
+          "pane:prev": "ctrl+j",
+          "pane:splitVertical": "ctrl+v",
+          "pane:splitHorizontal": "ctrl+w",
       }
 };
