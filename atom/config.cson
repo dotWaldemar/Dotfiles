@@ -41,6 +41,7 @@
     phpPath: "/usr/local/Cellar/php/7.2.3_2"
   minimap: {}
   pigments:
+    dismissableReloadNotifications: false
     markerType: "native-dot"
   "project-manager":
     alwaysOpenInSameWindow: true
