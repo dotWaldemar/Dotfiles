@@ -12,6 +12,7 @@ brew 'composer'
 brew 'dnsmasq'
 brew 'mysql'
 brew 'nginx'
+brew 'yarn'
 
 ## Brew cask applications
 cask 'hyper'
