@@ -6,3 +6,4 @@ atom-material-ui
 file-icons
 minimap
 project-manager
+language-vue
