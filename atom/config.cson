@@ -32,6 +32,7 @@
     lineHeight: 2
     scrollPastEnd: true
     showLineNumbers: false
+    softWrap: true
     tabLength: 4
   emmet:
     extensionsPath: "~/.atom/packages/emmet"
@@ -43,6 +44,7 @@
   pigments:
     dismissableReloadNotifications: false
     markerType: "native-dot"
+    notifyReloads: false
   "project-manager":
     alwaysOpenInSameWindow: true
   "project-plus": {}
