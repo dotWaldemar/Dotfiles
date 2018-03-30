@@ -5,6 +5,7 @@
   "atom-package-deps":
     ignored: []
   core:
+    closeDeletedFileTabs: true
     disabledPackages: [
       "about"
       "archive-view"
@@ -83,6 +84,7 @@
   "project-manager":
     alwaysOpenInSameWindow: true
   "project-plus": {}
-  "tree-view": {}
+  "tree-view":
+    hideIgnoredNames: true
   welcome:
     showOnStartup: false
